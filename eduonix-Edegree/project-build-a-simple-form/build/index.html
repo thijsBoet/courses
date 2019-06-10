@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>(Alpha)numerical character limit</title>
+</head>
+<body>
+<div class="container mt-3">
+    <form>
+        <div class="form-group">
+            <input class="form-control" id="alpha" pattern="[a-zA-Z]{10}">
+            <small id="emailHelp" class="form-text text-muted">10 alphanumerical character limit</small>
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="numeric" id="numeric" pattern="[0-9]{10}">
+            <small id="emailHelp" class="form-text text-muted">10 numerical character limit</small>
+        </div>
+        <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<script src="validator.js"></script>
+</body>
+</html>

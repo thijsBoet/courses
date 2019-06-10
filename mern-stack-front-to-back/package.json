@@ -1,0 +1,40 @@
+{
+  "name": "dev-connector",
+  "version": "1.0.0",
+  "description": "Social nerwork for developers",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.16",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthijs-boet/mern-stack-front-to-back.git"
+  },
+  "keywords": [
+    "social network",
+    "development",
+    "mern-stack"
+  ],
+  "author": "matthijs-boet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthijs-boet/mern-stack-front-to-back/issues"
+  },
+  "homepage": "https://github.com/matthijs-boet/mern-stack-front-to-back#readme"
+}

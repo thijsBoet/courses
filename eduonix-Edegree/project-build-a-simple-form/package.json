@@ -1,0 +1,43 @@
+{
+  "//": "kill -QUIT <PID>",
+  "name": "project-build-a-simple-form",
+  "version": "1.0.0",
+  "description": "Eduonix E-degree Project TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "start": "npm run",
+    "mytest": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/test/index\"",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build/index\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthijs-boet/eduonix-Edegree.git"
+  },
+  "keywords": [
+    "eduonix",
+    "edegree",
+    "fullstack",
+    "javascript",
+    "developer",
+    "tdd",
+    "project"
+  ],
+  "author": "matthijs boet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthijs-boet/eduonix-Edegree/issues"
+  },
+  "homepage": "https://github.com/matthijs-boet/eduonix-Edegree#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "concurrently": "^4.1.0",
+    "http-server": "^0.11.1",
+    "mocha": "^5.2.0",
+    "mocha-chrome": "^2.0.0"
+  },
+  "dependencies": {
+    "save-dev": "^2.0.0"
+  }
+}

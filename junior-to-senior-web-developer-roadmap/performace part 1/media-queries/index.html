@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Media Queries</title>
+    <style>
+      @media only screen and (min-width: 1200px) {
+        body {
+          background: url("./background_w1200.jpg") no-repeat center center fixed;
+          background-size: cover;
+        }
+      }
+
+      @media only screen and (min-width: 500px) {
+        body {
+          background: url("./background_w800.jpg") no-repeat center center fixed;
+          background-size: cover;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        body {
+          background: url("./background_w500.jpg") no-repeat center center fixed;
+          background-size: cover;
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
